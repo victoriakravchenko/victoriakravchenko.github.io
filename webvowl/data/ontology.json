@@ -22,13 +22,10 @@
     "id" : "class2",
     "type" : "owl:Class"
   }, {
-    "id" : "class59",
+    "id" : "class58",
     "type" : "owl:Class"
   }, {
-    "id" : "class53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "class45",
+    "id" : "class52",
     "type" : "owl:Class"
   }, {
     "id" : "class74",
@@ -37,7 +34,7 @@
     "id" : "class27",
     "type" : "owl:Class"
   }, {
-    "id" : "class61",
+    "id" : "class60",
     "type" : "owl:Class"
   }, {
     "id" : "class28",
@@ -46,7 +43,7 @@
     "id" : "class25",
     "type" : "owl:Class"
   }, {
-    "id" : "class60",
+    "id" : "class59",
     "type" : "owl:Class"
   }, {
     "id" : "class11",
@@ -58,7 +55,7 @@
     "id" : "class17",
     "type" : "owl:Class"
   }, {
-    "id" : "class58",
+    "id" : "class57",
     "type" : "owl:Class"
   }, {
     "id" : "class9",
@@ -73,7 +70,7 @@
     "id" : "class20",
     "type" : "owl:Class"
   }, {
-    "id" : "class48",
+    "id" : "class47",
     "type" : "owl:Class"
   }, {
     "id" : "class67",
@@ -82,13 +79,13 @@
     "id" : "class40",
     "type" : "owl:Class"
   }, {
-    "id" : "class55",
+    "id" : "class54",
     "type" : "owl:Class"
   }, {
     "id" : "class14",
     "type" : "owl:Class"
   }, {
-    "id" : "class52",
+    "id" : "class51",
     "type" : "owl:Class"
   }, {
     "id" : "class77",
@@ -118,7 +115,7 @@
     "id" : "class39",
     "type" : "owl:Class"
   }, {
-    "id" : "class65",
+    "id" : "class64",
     "type" : "owl:Class"
   }, {
     "id" : "class70",
@@ -127,7 +124,7 @@
     "id" : "class13",
     "type" : "owl:Class"
   }, {
-    "id" : "class62",
+    "id" : "class61",
     "type" : "owl:Class"
   }, {
     "id" : "class3",
@@ -139,6 +136,9 @@
     "id" : "class1",
     "type" : "owl:Class"
   }, {
+    "id" : "class65",
+    "type" : "owl:Class"
+  }, {
     "id" : "class44",
     "type" : "owl:Class"
   }, {
@@ -148,10 +148,10 @@
     "id" : "class41",
     "type" : "owl:Class"
   }, {
-    "id" : "class50",
+    "id" : "class49",
     "type" : "owl:Class"
   }, {
-    "id" : "class64",
+    "id" : "class63",
     "type" : "owl:Class"
   }, {
     "id" : "class66",
@@ -160,7 +160,7 @@
     "id" : "class10",
     "type" : "owl:Class"
   }, {
-    "id" : "class57",
+    "id" : "class56",
     "type" : "owl:Class"
   }, {
     "id" : "class26",
@@ -172,7 +172,7 @@
     "id" : "class68",
     "type" : "owl:Class"
   }, {
-    "id" : "class54",
+    "id" : "class53",
     "type" : "owl:Class"
   }, {
     "id" : "class37",
@@ -181,22 +181,22 @@
     "id" : "class71",
     "type" : "owl:Class"
   }, {
-    "id" : "class49",
+    "id" : "class5",
     "type" : "owl:Class"
   }, {
-    "id" : "class5",
+    "id" : "class48",
     "type" : "owl:Class"
   }, {
     "id" : "class42",
     "type" : "owl:Class"
   }, {
-    "id" : "class46",
+    "id" : "class45",
     "type" : "owl:Class"
   }, {
     "id" : "class24",
     "type" : "owl:Class"
   }, {
-    "id" : "class51",
+    "id" : "class50",
     "type" : "owl:Class"
   }, {
     "id" : "class12",
@@ -217,16 +217,16 @@
     "id" : "class22",
     "type" : "owl:Class"
   }, {
-    "id" : "class47",
+    "id" : "class46",
     "type" : "owl:Class"
   }, {
-    "id" : "class56",
+    "id" : "class55",
     "type" : "owl:Class"
   }, {
     "id" : "class35",
     "type" : "owl:Class"
   }, {
-    "id" : "class63",
+    "id" : "class62",
     "type" : "owl:Class"
   }, {
     "id" : "class21",
@@ -265,16 +265,16 @@
     "superClasses" : [ "class34" ],
     "instances" : 0
   }, {
-    "id" : "class59",
+    "id" : "class58",
     "label" : {
       "IRI-based" : "Навчально-науковий_інститут_механіки_і_транспорту"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Навчально-науковий_інститут_механіки_і_транспорту",
-    "subClasses" : [ "class16", "class64", "class63", "class18", "class36", "class72" ],
-    "superClasses" : [ "class52" ],
+    "subClasses" : [ "class16", "class63", "class62", "class18", "class36", "class72" ],
+    "superClasses" : [ "class51" ],
     "instances" : 0
   }, {
-    "id" : "class53",
+    "id" : "class52",
     "label" : {
       "IRI-based" : "Кафедра_галузевих_юридичних_наук"
     },
@@ -283,20 +283,12 @@
     "superClasses" : [ "class71" ],
     "instances" : 0
   }, {
-    "id" : "class45",
-    "label" : {
-      "IRI-based" : "281_Публічне_управляння_та_адміністрування"
-    },
-    "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#281_Публічне_управляння_та_адміністрування",
-    "superClasses" : [ "class38" ],
-    "instances" : 0
-  }, {
     "id" : "class74",
     "label" : {
       "IRI-based" : "Кафедра_електронних_апаратів"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_електронних_апаратів",
-    "subClasses" : [ "class29", "class47" ],
+    "subClasses" : [ "class29", "class46" ],
     "superClasses" : [ "class67" ],
     "instances" : 0
   }, {
@@ -309,12 +301,12 @@
     "superClasses" : [ "class44" ],
     "instances" : 0
   }, {
-    "id" : "class61",
+    "id" : "class60",
     "label" : {
       "IRI-based" : "113_Прикладна_математика"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#113_Прикладна_математика",
-    "superClasses" : [ "class48" ],
+    "superClasses" : [ "class47" ],
     "instances" : 0
   }, {
     "id" : "class28",
@@ -333,7 +325,7 @@
     "superClasses" : [ "class21" ],
     "instances" : 0
   }, {
-    "id" : "class60",
+    "id" : "class59",
     "label" : {
       "IRI-based" : "151_автоматизація_та_комп'ютерно-інтегровані_технології"
     },
@@ -346,7 +338,7 @@
       "IRI-based" : "239_Інформаційна,_бібліотечна_та_архівна_страва"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#239_Інформаційна,_бібліотечна_та_архівна_страва",
-    "superClasses" : [ "class57" ],
+    "superClasses" : [ "class56" ],
     "instances" : 0
   }, {
     "id" : "class72",
@@ -355,7 +347,7 @@
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_транспортних_технологій",
     "subClasses" : [ "class17" ],
-    "superClasses" : [ "class59" ],
+    "superClasses" : [ "class58" ],
     "instances" : 0
   }, {
     "id" : "class17",
@@ -366,7 +358,7 @@
     "superClasses" : [ "class72" ],
     "instances" : 0
   }, {
-    "id" : "class58",
+    "id" : "class57",
     "label" : {
       "IRI-based" : "Кафедра_туризму"
     },
@@ -389,7 +381,7 @@
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_систем_електроспоживання_та_енергетичного_менеджменту",
     "subClasses" : [ "class19" ],
-    "superClasses" : [ "class50" ],
+    "superClasses" : [ "class49" ],
     "instances" : 0
   }, {
     "id" : "class7",
@@ -397,7 +389,7 @@
       "IRI-based" : "227_Фізична_терапія,_ерготерапія"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#227_Фізична_терапія,_ерготерапія",
-    "superClasses" : [ "class46" ],
+    "superClasses" : [ "class45" ],
     "instances" : 0
   }, {
     "id" : "class20",
@@ -408,12 +400,12 @@
     "superClasses" : [ "class30" ],
     "instances" : 0
   }, {
-    "id" : "class48",
+    "id" : "class47",
     "label" : {
       "IRI-based" : "Кафедра_інформатики_та_вищої_математики"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_інформатики_та_вищої_математики",
-    "subClasses" : [ "class56", "class61" ],
+    "subClasses" : [ "class55", "class60" ],
     "superClasses" : [ "class67" ],
     "instances" : 0
   }, {
@@ -422,8 +414,8 @@
       "IRI-based" : "Факультет_електромеханіки_та_комп'ютерної_інженерії"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Факультет_електромеханіки_та_комп'ютерної_інженерії",
-    "subClasses" : [ "class74", "class48", "class8", "class4" ],
-    "superClasses" : [ "class52" ],
+    "subClasses" : [ "class74", "class47", "class8", "class4" ],
+    "superClasses" : [ "class51" ],
     "instances" : 0
   }, {
     "id" : "class40",
@@ -434,7 +426,7 @@
     "superClasses" : [ "class14" ],
     "instances" : 0
   }, {
-    "id" : "class55",
+    "id" : "class54",
     "label" : {
       "IRI-based" : "075_Маркетинг"
     },
@@ -451,12 +443,12 @@
     "superClasses" : [ "class12" ],
     "instances" : 0
   }, {
-    "id" : "class52",
+    "id" : "class51",
     "label" : {
       "IRI-based" : "КрНУ_ім._М._Остроградського"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#КрНУ_ім._М._Остроградського",
-    "subClasses" : [ "class59", "class12", "class44", "class50", "class67", "class71" ],
+    "subClasses" : [ "class58", "class12", "class44", "class49", "class67", "class71" ],
     "instances" : 0
   }, {
     "id" : "class77",
@@ -464,7 +456,7 @@
       "IRI-based" : "242_Тузизм"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#242_Тузизм",
-    "superClasses" : [ "class58" ],
+    "superClasses" : [ "class57" ],
     "instances" : 0
   }, {
     "id" : "class36",
@@ -473,7 +465,7 @@
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_технології_машинобудування",
     "subClasses" : [ "class73" ],
-    "superClasses" : [ "class59" ],
+    "superClasses" : [ "class58" ],
     "instances" : 0
   }, {
     "id" : "class31",
@@ -489,7 +481,7 @@
       "IRI-based" : "014.11_Середня_освіта_(Фізична_культура)"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#014.11_Середня_освіта_(Фізична_культура)",
-    "superClasses" : [ "class46" ],
+    "superClasses" : [ "class45" ],
     "instances" : 0
   }, {
     "id" : "class16",
@@ -497,8 +489,8 @@
       "IRI-based" : "Кафедра_автомобілі_та_трактори"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_автомобілі_та_трактори",
-    "subClasses" : [ "class62", "class37" ],
-    "superClasses" : [ "class59" ],
+    "subClasses" : [ "class61", "class37" ],
+    "superClasses" : [ "class58" ],
     "instances" : 0
   }, {
     "id" : "class23",
@@ -533,12 +525,12 @@
     "superClasses" : [ "class4" ],
     "instances" : 0
   }, {
-    "id" : "class65",
+    "id" : "class64",
     "label" : {
       "IRI-based" : "132_Інженерне_матеріалознавство"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#132_Інженерне_матеріалознавство",
-    "superClasses" : [ "class63" ],
+    "superClasses" : [ "class62" ],
     "instances" : 0
   }, {
     "id" : "class70",
@@ -546,7 +538,7 @@
       "IRI-based" : "133Галузеве_машинобудування"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#133Галузеве_машинобудування",
-    "superClasses" : [ "class64" ],
+    "superClasses" : [ "class63" ],
     "instances" : 0
   }, {
     "id" : "class13",
@@ -558,7 +550,7 @@
     "superClasses" : [ "class44" ],
     "instances" : 0
   }, {
-    "id" : "class62",
+    "id" : "class61",
     "label" : {
       "IRI-based" : "133__Галузеве_машинобудування"
     },
@@ -592,13 +584,21 @@
     "superClasses" : [ "class44" ],
     "instances" : 0
   }, {
+    "id" : "class65",
+    "label" : {
+      "IRI-based" : "281_Публічне_управління_та_адміністрування"
+    },
+    "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#281_Публічне_управління_та_адміністрування",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
     "id" : "class44",
     "label" : {
       "IRI-based" : "Факультет_природничих_наук"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Факультет_природничих_наук",
-    "subClasses" : [ "class27", "class1", "class13", "class34", "class46" ],
-    "superClasses" : [ "class52" ],
+    "subClasses" : [ "class27", "class1", "class13", "class34", "class45" ],
+    "superClasses" : [ "class51" ],
     "instances" : 0
   }, {
     "id" : "class34",
@@ -618,22 +618,22 @@
     "superClasses" : [ "class8" ],
     "instances" : 0
   }, {
-    "id" : "class50",
+    "id" : "class49",
     "label" : {
       "IRI-based" : "Інститут_електромеханіки,_енергозбереження_і_систем_управління"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Інститут_електромеханіки,_енергозбереження_і_систем_управління",
     "subClasses" : [ "class21", "class26", "class75", "class22" ],
-    "superClasses" : [ "class52" ],
+    "superClasses" : [ "class51" ],
     "instances" : 0
   }, {
-    "id" : "class64",
+    "id" : "class63",
     "label" : {
       "IRI-based" : "Кафедра_конструювання_машин_та_тех.обладнання"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_конструювання_машин_та_тех.обладнання",
     "subClasses" : [ "class70" ],
-    "superClasses" : [ "class59" ],
+    "superClasses" : [ "class58" ],
     "instances" : 0
   }, {
     "id" : "class66",
@@ -641,7 +641,7 @@
       "IRI-based" : "Кафедра_перекладу"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_перекладу",
-    "subClasses" : [ "class54" ],
+    "subClasses" : [ "class53" ],
     "superClasses" : [ "class71" ],
     "instances" : 0
   }, {
@@ -650,11 +650,11 @@
       "IRI-based" : "Кафедра_менеджменту"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_менеджменту",
-    "subClasses" : [ "class38" ],
+    "subClasses" : [ "class38", "class65" ],
     "superClasses" : [ "class12" ],
     "instances" : 0
   }, {
-    "id" : "class57",
+    "id" : "class56",
     "label" : {
       "IRI-based" : "Кафедра_українознавства"
     },
@@ -669,7 +669,7 @@
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_систем_автоматичного_управління_і_електроприводу",
     "subClasses" : [ "class28" ],
-    "superClasses" : [ "class50" ],
+    "superClasses" : [ "class49" ],
     "instances" : 0
   }, {
     "id" : "class43",
@@ -689,7 +689,7 @@
     "superClasses" : [ "class12" ],
     "instances" : 0
   }, {
-    "id" : "class54",
+    "id" : "class53",
     "label" : {
       "IRI-based" : "035.04_Філологія_(Германські_мови_та_літератури_(переклад_включно)"
     },
@@ -710,16 +710,8 @@
       "IRI-based" : "Факультет_права,_гуманітарних_і_соціальних_наук"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Факультет_права,_гуманітарних_і_соціальних_наук",
-    "subClasses" : [ "class53", "class66", "class57", "class30", "class69", "class24" ],
-    "superClasses" : [ "class52" ],
-    "instances" : 0
-  }, {
-    "id" : "class49",
-    "label" : {
-      "IRI-based" : "081_Право"
-    },
-    "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#081_Право",
-    "superClasses" : [ "class24" ],
+    "subClasses" : [ "class52", "class66", "class56", "class30", "class69", "class24" ],
+    "superClasses" : [ "class51" ],
     "instances" : 0
   }, {
     "id" : "class5",
@@ -730,6 +722,14 @@
     "superClasses" : [ "class22" ],
     "instances" : 0
   }, {
+    "id" : "class48",
+    "label" : {
+      "IRI-based" : "081_Право"
+    },
+    "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#081_Право",
+    "superClasses" : [ "class24" ],
+    "instances" : 0
+  }, {
     "id" : "class42",
     "label" : {
       "IRI-based" : "053_Психологія"
@@ -738,7 +738,7 @@
     "superClasses" : [ "class69" ],
     "instances" : 0
   }, {
-    "id" : "class46",
+    "id" : "class45",
     "label" : {
       "IRI-based" : "Кафедра_здоров'я_людини_та_фізичної_культури"
     },
@@ -752,11 +752,11 @@
       "IRI-based" : "Кафедра_теорії,_історії_держави_та_права"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_теорії,_історії_держави_та_права",
-    "subClasses" : [ "class49" ],
+    "subClasses" : [ "class48" ],
     "superClasses" : [ "class71" ],
     "instances" : 0
   }, {
-    "id" : "class51",
+    "id" : "class50",
     "label" : {
       "IRI-based" : "133_Галузеве_машинобудування"
     },
@@ -769,8 +769,8 @@
       "IRI-based" : "Факультет_економіки_і_управляння"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Факультет_економіки_і_управляння",
-    "subClasses" : [ "class68", "class35", "class10", "class58", "class14", "class32" ],
-    "superClasses" : [ "class52" ],
+    "subClasses" : [ "class68", "class35", "class10", "class57", "class14", "class32" ],
+    "superClasses" : [ "class51" ],
     "instances" : 0
   }, {
     "id" : "class6",
@@ -778,7 +778,7 @@
       "IRI-based" : "081__Право"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#081__Право",
-    "superClasses" : [ "class53" ],
+    "superClasses" : [ "class52" ],
     "instances" : 0
   }, {
     "id" : "class19",
@@ -794,7 +794,7 @@
       "IRI-based" : "Кафедра_інформаційно-управляющих_систем"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_інформаційно-управляющих_систем",
-    "subClasses" : [ "class41", "class60" ],
+    "subClasses" : [ "class41", "class59" ],
     "superClasses" : [ "class67" ],
     "instances" : 0
   }, {
@@ -813,10 +813,10 @@
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_автоматизауії_та_комп'ютерно-інтегрованих_технологій",
     "subClasses" : [ "class5" ],
-    "superClasses" : [ "class50" ],
+    "superClasses" : [ "class49" ],
     "instances" : 0
   }, {
-    "id" : "class47",
+    "id" : "class46",
     "label" : {
       "IRI-based" : "172_Телекомунікації_та_радіотехніка"
     },
@@ -824,12 +824,12 @@
     "superClasses" : [ "class74" ],
     "instances" : 0
   }, {
-    "id" : "class56",
+    "id" : "class55",
     "label" : {
       "IRI-based" : "014.09_Середня_освіта_(Інформатика)"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#014.09_Середня_освіта_(Інформатика)",
-    "superClasses" : [ "class48" ],
+    "superClasses" : [ "class47" ],
     "instances" : 0
   }, {
     "id" : "class35",
@@ -837,17 +837,17 @@
       "IRI-based" : "Кафедра_маркетингу"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_маркетингу",
-    "subClasses" : [ "class55", "class76" ],
+    "subClasses" : [ "class54", "class76" ],
     "superClasses" : [ "class12" ],
     "instances" : 0
   }, {
-    "id" : "class63",
+    "id" : "class62",
     "label" : {
       "IRI-based" : "Кафедра_механіки_та_матеріалознавства"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_механіки_та_матеріалознавства",
-    "subClasses" : [ "class65" ],
-    "superClasses" : [ "class59" ],
+    "subClasses" : [ "class64" ],
+    "superClasses" : [ "class58" ],
     "instances" : 0
   }, {
     "id" : "class21",
@@ -856,7 +856,7 @@
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_електричних_машин_та_апаратів",
     "subClasses" : [ "class25" ],
-    "superClasses" : [ "class50" ],
+    "superClasses" : [ "class49" ],
     "instances" : 0
   }, {
     "id" : "class18",
@@ -864,8 +864,8 @@
       "IRI-based" : "Кафедра_процесів_і_обладнання_механічної_та_фізико-технічної_обробки"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#Кафедра_процесів_і_обладнання_механічної_та_фізико-технічної_обробки",
-    "subClasses" : [ "class51" ],
-    "superClasses" : [ "class59" ],
+    "subClasses" : [ "class50" ],
+    "superClasses" : [ "class58" ],
     "instances" : 0
   }, {
     "id" : "class38",
@@ -873,7 +873,6 @@
       "IRI-based" : "073_Менеджмент"
     },
     "iri" : "http://www.semanticweb.org/victo/ontologies/2017/10/untitled-ontology-8#073_Менеджмент",
-    "subClasses" : [ "class45" ],
     "superClasses" : [ "class10" ],
     "instances" : 0
   }, {
@@ -1143,7 +1142,7 @@
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class46",
+    "domain" : "class45",
     "range" : "class44"
   }, {
     "id" : "property37",
@@ -1178,7 +1177,7 @@
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class76",
+    "domain" : "class54",
     "range" : "class35"
   }, {
     "id" : "property33",
@@ -1192,8 +1191,8 @@
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class55",
-    "range" : "class35"
+    "domain" : "class5",
+    "range" : "class22"
   }, {
     "id" : "property32",
     "label" : {
@@ -1227,71 +1226,71 @@
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class65",
-    "range" : "class63"
+    "domain" : "class76",
+    "range" : "class35"
   }, {
     "id" : "property73",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class64",
+    "range" : "class62"
+  }, {
+    "id" : "property74",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class25",
     "range" : "class21"
   }, {
-    "id" : "property74",
-    "label" : {
-      "IRI-based" : "Subclass Of"
-    },
-    "domain" : "class51",
-    "range" : "class18"
-  }, {
     "id" : "property75",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class45",
-    "range" : "class38"
+    "domain" : "class50",
+    "range" : "class18"
   }, {
     "id" : "property29",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class62",
+    "domain" : "class61",
     "range" : "class16"
   }, {
     "id" : "property4",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class63",
-    "range" : "class59"
+    "domain" : "class62",
+    "range" : "class58"
   }, {
     "id" : "property26",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class67",
-    "range" : "class52"
+    "range" : "class51"
   }, {
     "id" : "property3",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class64",
-    "range" : "class59"
+    "domain" : "class63",
+    "range" : "class58"
   }, {
     "id" : "property25",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class50",
-    "range" : "class52"
+    "domain" : "class49",
+    "range" : "class51"
   }, {
     "id" : "property2",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class16",
-    "range" : "class59"
+    "range" : "class58"
   }, {
     "id" : "property28",
     "label" : {
@@ -1312,21 +1311,21 @@
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class71",
-    "range" : "class52"
+    "range" : "class51"
   }, {
     "id" : "property60",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class68",
-    "range" : "class12"
+    "domain" : "class48",
+    "range" : "class24"
   }, {
     "id" : "property22",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class59",
-    "range" : "class52"
+    "domain" : "class58",
+    "range" : "class51"
   }, {
     "id" : "property21",
     "label" : {
@@ -1340,14 +1339,14 @@
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class44",
-    "range" : "class52"
+    "range" : "class51"
   }, {
     "id" : "property23",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class12",
-    "range" : "class52"
+    "range" : "class51"
   }, {
     "id" : "property20",
     "label" : {
@@ -1360,64 +1359,64 @@
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class60",
+    "domain" : "class41",
     "range" : "class8"
   }, {
     "id" : "property68",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class42",
-    "range" : "class69"
-  }, {
-    "id" : "property65",
-    "label" : {
-      "IRI-based" : "Subclass Of"
-    },
-    "domain" : "class32",
-    "range" : "class12"
-  }, {
-    "id" : "property66",
-    "label" : {
-      "IRI-based" : "Subclass Of"
-    },
-    "domain" : "class41",
+    "domain" : "class59",
     "range" : "class8"
   }, {
-    "id" : "property63",
-    "label" : {
-      "IRI-based" : "Subclass Of"
-    },
-    "domain" : "class58",
-    "range" : "class12"
-  }, {
-    "id" : "property64",
+    "id" : "property65",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class14",
     "range" : "class12"
   }, {
-    "id" : "property61",
+    "id" : "property66",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class35",
+    "domain" : "class32",
     "range" : "class12"
   }, {
-    "id" : "property62",
+    "id" : "property63",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class10",
     "range" : "class12"
   }, {
+    "id" : "property64",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class57",
+    "range" : "class12"
+  }, {
+    "id" : "property61",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class68",
+    "range" : "class12"
+  }, {
+    "id" : "property62",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class35",
+    "range" : "class12"
+  }, {
     "id" : "property69",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class5",
-    "range" : "class22"
+    "domain" : "class42",
+    "range" : "class69"
   }, {
     "id" : "property17",
     "label" : {
@@ -1430,15 +1429,15 @@
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class61",
-    "range" : "class48"
+    "domain" : "class60",
+    "range" : "class47"
   }, {
     "id" : "property15",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class56",
-    "range" : "class48"
+    "domain" : "class55",
+    "range" : "class47"
   }, {
     "id" : "property14",
     "label" : {
@@ -1459,14 +1458,14 @@
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class6",
-    "range" : "class53"
+    "range" : "class52"
   }, {
     "id" : "property7",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class72",
-    "range" : "class59"
+    "range" : "class58"
   }, {
     "id" : "property19",
     "label" : {
@@ -1480,13 +1479,13 @@
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class36",
-    "range" : "class59"
+    "range" : "class58"
   }, {
     "id" : "property18",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class48",
+    "domain" : "class47",
     "range" : "class67"
   }, {
     "id" : "property5",
@@ -1494,14 +1493,14 @@
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class18",
-    "range" : "class59"
+    "range" : "class58"
   }, {
     "id" : "property13",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class77",
-    "range" : "class58"
+    "range" : "class57"
   }, {
     "id" : "property12",
     "label" : {
@@ -1521,92 +1520,92 @@
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class47",
+    "domain" : "class46",
     "range" : "class74"
   }, {
     "id" : "property50",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class23",
-    "range" : "class68"
+    "domain" : "class28",
+    "range" : "class26"
   }, {
     "id" : "property51",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class53",
-    "range" : "class71"
+    "domain" : "class23",
+    "range" : "class68"
   }, {
     "id" : "property52",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class66",
+    "domain" : "class52",
     "range" : "class71"
   }, {
     "id" : "property53",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class57",
+    "domain" : "class66",
     "range" : "class71"
   }, {
     "id" : "property54",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class30",
+    "domain" : "class56",
     "range" : "class71"
   }, {
     "id" : "property55",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class69",
+    "domain" : "class30",
     "range" : "class71"
   }, {
     "id" : "property56",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class24",
+    "domain" : "class69",
     "range" : "class71"
   }, {
     "id" : "property57",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class15",
-    "range" : "class46"
+    "domain" : "class24",
+    "range" : "class71"
   }, {
     "id" : "property58",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class7",
-    "range" : "class46"
+    "domain" : "class15",
+    "range" : "class45"
   }, {
     "id" : "property59",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class49",
-    "range" : "class24"
+    "domain" : "class7",
+    "range" : "class45"
   }, {
     "id" : "property41",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class21",
-    "range" : "class50"
+    "range" : "class49"
   }, {
     "id" : "property42",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class26",
-    "range" : "class50"
+    "range" : "class49"
   }, {
     "id" : "property40",
     "label" : {
@@ -1620,13 +1619,13 @@
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class70",
-    "range" : "class64"
+    "range" : "class63"
   }, {
     "id" : "property46",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class54",
+    "domain" : "class53",
     "range" : "class66"
   }, {
     "id" : "property43",
@@ -1634,21 +1633,21 @@
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class75",
-    "range" : "class50"
+    "range" : "class49"
   }, {
     "id" : "property44",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
     "domain" : "class22",
-    "range" : "class50"
+    "range" : "class49"
   }, {
     "id" : "property49",
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class28",
-    "range" : "class26"
+    "domain" : "class11",
+    "range" : "class56"
   }, {
     "id" : "property47",
     "label" : {
@@ -1661,7 +1660,7 @@
     "label" : {
       "IRI-based" : "Subclass Of"
     },
-    "domain" : "class11",
-    "range" : "class57"
+    "domain" : "class65",
+    "range" : "class10"
   } ]
 }
