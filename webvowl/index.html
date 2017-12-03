@@ -2,222 +2,74 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Vincent Link, Steffen Lohmann, Eduard Marbach, Stefan Negru, Vitalis Wiens" />
-    <meta name="keywords" content="webvowl, vowl, visual notation, web ontology language, owl, rdf, ontology visualization, ontologies, semantic web" />
-    <meta name="description" content="WebVOWL - Web-based Visualization of Ontologies" />
-    <meta name="robots" content="noindex,nofollow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" type="text/css" href="css/webvowl.css" />
-    <link rel="stylesheet" type="text/css" href="css/webvowl.app.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>WebVOWL</title>
+	<title>OWL</title>
+	<script type = "text/javascript" src = "https://www.google.com/jsapi"></script>
 </head>
 
-<body>
+	<body>
+		<div id = "wordtree_basic"></div>
 
-    <main>
+		<script type="text/javascript">
+			 google.load("visualization", "1.1", {packages:["wordtree"]});
+			 google.setOnLoadCallback(drawChart);
 
-        <section id="canvasArea">
-            <div id="browserCheck" class="hidden">
-                WebVOWL does not work properly in Internet Explorer and Microsoft Edge. Please use another browser, such as
-                <a href="http://www.mozilla.org/firefox/">Mozilla Firefox</a> or
-                <a href="https://www.google.com/chrome/">Google Chrome</a>, to run WebVOWL.
-                <label id="killWarning">Hide warning</label>
-            </div>
+			 function drawChart() {
+			 var data = google.visualization.arrayToDataTable(
+			 [
+				['Фразы'],
+				['КрНУ_ім._М._Остроградського Факультет_природничих_наук Кафедра_здоров’я_людини_та_фізичної_культури 014.11_Середня_освіта_(Фізична_культура)'],
+				['КрНУ_ім._М._Остроградського Факультет_природничих_наук Кафедра_здоров’я_людини_та_фізичної_культури 227_Фізична_терапія,_ерготерапія'],
+				['КрНУ_ім._М._Остроградського Факультет_природничих_наук Кафедра_безпеки_життєдіяльності 263_Цивільна_безпека'],
+				['КрНУ_ім._М._Остроградського Факультет_природничих_наук Кафедра_геодезії,_землевпорядкування_і_кадастру 132_Будівництво_та_цивільна_інженерія'],
+				['КрНУ_ім._М._Остроградського Факультет_природничих_наук Кафедра_геодезії,_землевпорядкування_і_кадастру 193_Геодезія_та_землеустрій'],
+				['КрНУ_ім._М._Остроградського Факультет_природничих_наук Кафедра_біотехнологій_та_біоінженерії 162_Біотехнологія_та_біоінженерія'],
+				['КрНУ_ім._М._Остроградського Факультет_природничих_наук Кафедра_екологічна_безпека_та_організація_природокористування 101_Екологія'],
+				['КрНУ_ім._М._Остроградського Інститут_електромеханіки,_енергозбереження_і_систем_управління Кафедра_електричних_машин_та_апаратів 141_Електроенергетика,_електротехніка_та_електромеханіка'],
+				['КрНУ_ім._М._Остроградського Інститут_електромеханіки,_енергозбереження_і_систем_управління Кафедра_автоматизауії_та_комп’ютерно-інтегрованих_технологій 151_автоматизація_та_комп’ютерно-інтегровані_технології'],
+				['КрНУ_ім._М._Остроградського Інститут_електромеханіки,_енергозбереження_і_систем_управління Кафедра_систем_електроспоживання_та_енергетичного_менеджменту 141_Електроенергетика,_електротехніка_та_електротехнологій'],
+				['КрНУ_ім._М._Остроградського Інститут_електромеханіки,_енергозбереження_і_систем_управління Кафедра_систем_автоматичного_управління_і_електроприводу 141_Електроенергетика,_електротехніка_та_електромеханіка'],
+				['КрНУ_ім._М._Остроградського Факультет_права,_гуманітарних_і_соціальних_наук Кафедра_філології_та_видавничої_справи 061_Журналістика'],
+				['КрНУ_ім._М._Остроградського Факультет_права,_гуманітарних_і_соціальних_наук Кафедра_теорії,_історії_держави_та_права 081__Право'],
+				['КрНУ_ім._М._Остроградського Факультет_права,_гуманітарних_і_соціальних_наук Кафедра_галузевих_юридичних_наук 081__Право'],
+				['КрНУ_ім._М._Остроградського Факультет_права,_гуманітарних_і_соціальних_наук Кафедра_психології,_педагогіки_та_філософії 053_Психологія'],
+				['КрНУ_ім._М._Остроградського Факультет_права,_гуманітарних_і_соціальних_наук Кафедра_перекладу 035.04_Філологія_(Германські_мови_та_літератури_(переклад_включно)'],
+				['КрНУ_ім._М._Остроградського Факультет_права,_гуманітарних_і_соціальних_наук Кафедра_українознавства 239_Інформаційна,_бібліотечна_та_архівна_страва'],
+				['КрНУ_ім._М._Остроградського Факультет_економіки_і_управляння Кафедра_фінансів_та_кредиту 072_Фінанси,_банківська_справа_та_страхування'],
+				['КрНУ_ім._М._Остроградського Факультет_економіки_і_управляння Кафедра_маркетингу 075_Маркетинг'],
+				['КрНУ_ім._М._Остроградського Факультет_економіки_і_управляння Кафедра_маркетингу 076_Підприємство,_торгівля_та_біржова_діяльність'],
+				['КрНУ_ім._М._Остроградського Факультет_економіки_і_управляння Кафедра_менеджменту 073_Менеджмент'],
+				['КрНУ_ім._М._Остроградського Факультет_економіки_і_управляння Кафедра_менеджменту 281_Публічне_управляння_та_адміністрування'],
+				['КрНУ_ім._М._Остроградського Факультет_економіки_і_управляння Кафедра_туризму 242_Тузизм'],
+				['КрНУ_ім._М._Остроградського Факультет_економіки_і_управляння Кафедра_економіки 051_Економіка'],
+				['КрНУ_ім._М._Остроградського Факультет_економіки_і_управляння Кафедра_обліку,_аналізу_та_аудиту 071_Облік_та_оподаткування'],
+				['КрНУ_ім._М._Остроградського Факультет_електромеханіки_та_комп’ютерної_інженерії Кафедра_інформатики_та_вищої_математики 014.09_Середня_освіта_(Інформатика)'],
+				['КрНУ_ім._М._Остроградського Факультет_електромеханіки_та_комп’ютерної_інженерії Кафедра_інформатики_та_вищої_математики 113_Прикладна_математика'],
+				['КрНУ_ім._М._Остроградського Факультет_електромеханіки_та_комп’ютерної_інженерії Кафедра_електронних_апаратів 163_Біомедична_інженерія'],
+				['КрНУ_ім._М._Остроградського Факультет_електромеханіки_та_комп’ютерної_інженерії Кафедра_електронних_апаратів 172_Телекомунікації_та_радіотехніка'],
+				['КрНУ_ім._М._Остроградського Факультет_електромеханіки_та_комп’ютерної_інженерії Кафедра_комп’ютерних_та_інформаційних_систем 123_Комп’ютерна_інженерія'],
+				['КрНУ_ім._М._Остроградського Факультет_електромеханіки_та_комп’ютерної_інженерії Кафедра_інформаційно-управляющих_систем 151_автоматизація_та_комп’ютерно-інтегровані_технології'],
+				['КрНУ_ім._М._Остроградського Факультет_електромеханіки_та_комп’ютерної_інженерії Кафедра_інформаційно-управляющих_систем 122_Комп’ютерні_науки'],
+				['КрНУ_ім._М._Остроградського Навчально-науковий_інститут_механіки_і_транспорту Кафедра_автомобілі_та_трактори 133Галузеве_машинобудування'],
+				['КрНУ_ім._М._Остроградського Навчально-науковий_інститут_механіки_і_транспорту Кафедра_автомобілі_та_трактори 274_Автомобільний_транспорт'],
+				['КрНУ_ім._М._Остроградського Навчально-науковий_інститут_механіки_і_транспорту Кафедра_технології_машинобудування 131_Прикладна_механіка'],
+				['КрНУ_ім._М._Остроградського Навчально-науковий_інститут_механіки_і_транспорту Кафедра_конструювання_машин_та_тех.обладнання 133_Галузеве_машинобудування'],
+				['КрНУ_ім._М._Остроградського Навчально-науковий_інститут_механіки_і_транспорту Кафедра_транспортних_технологій 275.03_Транспортні_технологія_(на_автомобільному_транспорті)'],
+				]
+			);
 
-            <div id="logo">
+			var options = {
+				maxFontSize: 20,
+				backgroundColor: '#F7F7F7',
+				wordtree: {
+					format: 'implicit',
+					word: 'КрНУ_ім._М._Остроградського'
+				}
+			};
 
 
-                <h2>WebVOWL <br/><span>1.0.6</span></h2>
-
-            </div>
-            <div id="loading-info">
-                <div id="loading-error" class="hidden">
-                    <div id="error-info"></div>
-                    <div id="error-description-button" class="hidden">Show error details</div>
-                    <div id="error-description-container" class="hidden">
-                        <pre id="error-description"></pre>
-                    </div>
-                </div>
-                <div><span id="sidebarExpandButton"> > </span></div>
-
-                <div id="loading-progress" class="hidden">
-                    <span>Loading ontology... </span>
-                    <div class="spin">&#8635;</div><br>
-                    <div id="myProgress">
-                        <div id="myBar"></div>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div id="graph"></div>
-        </section>
-        <aside id="detailsArea">
-
-            <section id="generalDetails">
-                <h1 id="title"></h1>
-                <span><a id="about" href=""></a></span>
-                <h5>Version: <span id="version"></span></h5>
-                <h5>Author(s): <span id="authors"></span></h5>
-                <h5>
-                    <label>Language: <select id="language" name="language" size="1"></select></label>
-                </h5>
-                <h3 class="accordion-trigger accordion-trigger-active">Description</h3>
-                <div class="accordion-container scrollable">
-                    <p id="description"></p>
-                </div>
-                <h3 class="accordion-trigger">Metadata</h3>
-                <div id="ontology-metadata" class="accordion-container"></div>
-                <h3 class="accordion-trigger">Statistics</h3>
-                <div class="accordion-container">
-                    <p class="statisticDetails">Classes: <span id="classCount"></span></p>
-                    <p class="statisticDetails">Object prop.: <span id="objectPropertyCount"></span></p>
-                    <p class="statisticDetails">Datatype prop.: <span id="datatypePropertyCount"></span></p>
-                    <div class="small-whitespace-separator"></div>
-                    <p class="statisticDetails">Individuals: <span id="individualCount"></span></p>
-                    <div class="small-whitespace-separator"></div>
-                    <p class="statisticDetails">Nodes: <span id="nodeCount"></span></p>
-                    <p class="statisticDetails">Edges: <span id="edgeCount"></span></p>
-                </div>
-                <h3 class="accordion-trigger" id="selection-details-trigger">Selection Details</h3>
-                <div class="accordion-container" id="selection-details">
-                    <div id="classSelectionInformation" class="hidden">
-                        <p class="propDetails">Name: <span id="name"></span></p>
-                        <p class="propDetails">Type: <span id="typeNode"></span></p>
-                        <p class="propDetails">Equiv.: <span id="classEquivUri"></span></p>
-                        <p class="propDetails">Disjoint: <span id="disjointNodes"></span></p>
-                        <p class="propDetails">Charac.: <span id="classAttributes"></span></p>
-                        <p class="propDetails">Individuals: <span id="individuals"></span></p>
-                        <p class="propDetails">Description: <span id="nodeDescription"></span></p>
-                        <p class="propDetails">Comment: <span id="nodeComment"></span></p>
-                    </div>
-                    <div id="propertySelectionInformation" class="hidden">
-                        <p class="propDetails">Name: <span id="propname"></span></p>
-                        <p class="propDetails">Type: <span id="typeProp"></span></p>
-                        <p id="inverse" class="propDetails">Inverse: <span></span></p>
-                        <p class="propDetails">Domain: <span id="domain"></span></p>
-                        <p class="propDetails">Range: <span id="range"></span></p>
-                        <p class="propDetails">Subprop.: <span id="subproperties"></span></p>
-                        <p class="propDetails">Superprop.: <span id="superproperties"></span></p>
-                        <p class="propDetails">Equiv.: <span id="propEquivUri"></span></p>
-                        <p id="infoCardinality" class="propDetails">Cardinality: <span></span></p>
-                        <p id="minCardinality" class="propDetails">Min. cardinality: <span></span></p>
-                        <p id="maxCardinality" class="propDetails">Max. cardinality: <span></span></p>
-                        <p class="propDetails">Charac.: <span id="propAttributes"></span></p>
-                        <p class="propDetails">Description: <span id="propDescription"></span></p>
-                        <p class="propDetails">Comment: <span id="propComment"></span></p>
-                    </div>
-                    <div id="noSelectionInformation">
-                        <p><span>Select an element in the visualization.</span></p>
-                    </div>
-                </div>
-            </section>
-        </aside>
-        <nav id="optionsArea">
-            <ul id="optionsMenu">
-                <li id="aboutMenu"><a href="#">About</a>
-                    <ul class="toolTipMenu aboutMenu">
-                        <li><a href="license.txt" target="_blank">MIT License &copy; 2014-2017</a></li>
-                        <li id="credits" class="option">WebVOWL Developers:<br/> Vincent Link, Steffen Lohmann, Eduard Marbach, Stefan Negru, Vitalis Wiens
-                        </li>
-
-                        <li><a href="http://vowl.visualdataweb.org/webvowl.html#releases" target="_blank">Version: 1.0.6<br/>(release history)</a></li>
-
-                        <li><a href="http://purl.org/vowl/" target="_blank">VOWL Specification &raquo;</a></li>
-                    </ul>
-                </li>
-                <li id="pauseOption"><a id="pause-button" href="#">Pause</a></li>
-                <li id="resetOption"><a id="reset-button" href="#" type="reset">Reset</a></li>
-                <li id="moduleOption"><a href="#">Modes</a>
-                    <ul class="toolTipMenu module">
-                        <!--<li class="toggleOption" id="helicopterZoom"></li>-->
-                        <!--<li class="toggleOption" id="grassHopperZoom"></li>-->
-                        <li class="toggleOption" id="dynamicLabelWidth"></li>
-                        <li class="toggleOption" id="pickAndPinOption"></li>
-                        <li class="toggleOption" id="nodeScalingOption"></li>
-                        <li class="toggleOption" id="compactNotationOption"></li>
-                        <li class="toggleOption" id="colorExternalsOption"></li>
-                    </ul>
-                </li>
-                <li id="filterOption"><a href="#">Filter</a>
-                    <ul class="toolTipMenu filter">
-                        <li class="toggleOption" id="datatypeFilteringOption"></li>
-                        <li class="toggleOption" id="objectPropertyFilteringOption"></li>
-                        <li class="toggleOption" id="subclassFilteringOption"></li>
-                        <li class="toggleOption" id="disjointFilteringOption"></li>
-                        <li class="toggleOption" id="setOperatorFilteringOption"></li>
-                        <li class="slideOption" id="nodeDegreeFilteringOption"></li>
-                    </ul>
-                </li>
-                <li id="gravityOption"><a href="#">Gravity</a>
-                    <ul class="toolTipMenu gravity">
-                        <li class="slideOption" id="classSliderOption"></li>
-                        <li class="slideOption" id="datatypeSliderOption"></li>
-                    </ul>
-                </li>
-                <li id="export"><a href="#">Export</a>
-                    <ul class="toolTipMenu export">
-                        <li><a href="#" download id="exportJson">Export as JSON</a></li>
-                        <li><a href="#" download id="exportSvg">Export as SVG</a></li>
-                        <li class="option">
-                            <div>
-                                <form class="converter-form" id="url-copy-form">
-                                    <label for="exportedUrl">Export as URL:</label>
-                                    <input type="text" id="exportedUrl" placeholder="an URL">
-                                    <span id="copyBt" title="Copy to Clipboard">Copy</span>
-                                </form>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-                <li id="select"><a href="#">Ontology</a>
-                    <ul class="toolTipMenu select">
-                        <li><a href="#foaf" id="foaf">Friend of a Friend (FOAF) vocabulary</a></li>
-                        <li><a href="#muto" id="muto">Modular and Unified Tagging Ontology (MUTO)</a></li>
-                        <li><a href="#personasonto" id="personasonto">Personas Ontology (PersonasOnto)</a></li>
-                        <li><a href="#goodrelations" id="goodrelations">GoodRelations Vocabulary for E-Commerce</a></li>
-                        <li><a href="#sioc" id="sioc">SIOC (Semantically-Interlinked Online Communities) Core Ontology</a></li>
-                        <li><a href="#ontovibe" id="ontovibe">Ontology Visualization Benchmark (OntoViBe)</a></li>
-
-                        <li class="option" id="converter-option">
-                            <form class="converter-form" id="iri-converter-form">
-                                <label for="iri-converter-input">Custom Ontology:</label>
-                                <input type="text" id="iri-converter-input" placeholder="Enter ontology IRI">
-                                <button type="submit" id="iri-converter-button" disabled>Visualize</button>
-                            </form>
-                            <div class="converter-form">
-                                <input class="hidden" type="file" id="file-converter-input" autocomplete="off">
-                                <label class="truncate" id="file-converter-label" for="file-converter-input">Select ontology file</label>
-                                <button type="submit" id="file-converter-button" autocomplete="off" disabled>
-								Upload
-							</button>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-                <li id="li_locationSearch"> <a title="Nothing to locate, enter search term." href="#" id="locateSearchResult">&#8853;</a></li>
-                <li class="searchMenu" id="searchMenuId">
-                    <input class="searchInputText" type="text" id="search-input-text" placeholder="Search">
-                    <ul class="searchMenuEntry" id="searchEntryContainer">
-                    </ul>
-                </li>
-                <li id="li_right" style="float:left"><a href="#" id="RightButton"></a></li>
-                <li id="li_left" style="float:left"><a href="#" id="LeftButton"></a></li>
-
-                </li>
-            </ul>
-        </nav>
-    </main>
-    <script src="js/d3.min.js"></script>
-    <script src="js/webvowl.js"></script>
-    <script src="js/webvowl.app.js"></script>
-    <script>
-        window.onload = webvowl.app().initialize;
-    </script>
-</body>
-
+			var chart = new google.visualization.WordTree(document.getElementById('wordtree_basic'));
+				chart.draw(data, options);
+			}
+			</script>
+	</body>
 </html>
